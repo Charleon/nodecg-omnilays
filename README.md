@@ -7,10 +7,12 @@ It is primarily aimed at [Twitch](http://twitch.tv) broadcasters using [Open Bro
 [xSplit](https://www.xsplit.com/), but is usable in any environment that can render HTML.
 
 ### Installation
-Two prerequisites
-1. Download and install [git](https://git-scm.com/)
+There are two prerequisites to get OMNILays working.
+* Download and install [git](https://git-scm.com/)
 2. Download and install [nodejs](https://nodejs.org/en/)
+
 Then:
+
 1. download and install [nodecg](http://nodecg.com/). here comes a short summary: 
 Make a new folder, in that folder, rightclick, choose "Open Git Bash.." and in the prompt, type:
    * npm install nodecg-cli -g 
@@ -23,7 +25,7 @@ Make a new folder, in that folder, rightclick, choose "Open Git Bash.." and in t
 For OBS you need the [CLR Browser Plugin](https://obsproject.com/forum/resources/clr-browser-source-plugin.22/), but the latest xSplit version already has support to add web url:s using the "Add page URL.." option
 
 ### Usage
-Open http://localhost:9090/dashboard/# to see the dashboard. From here you control the rest of the overlay. You should do this from your browser.
+Open **http://localhost:9090/dashboard/#** to see the dashboard. From here you control the rest of the overlay. You should do this from your browser.
 
 ##### http://localhost:9090/view/OMNILays/MatchScreen.html 
 This screen contains the Player Panels, controlled through Player Control Panel and Stream Control Panel in the dashboard. Test in browser or directly in OBS/xSplit
