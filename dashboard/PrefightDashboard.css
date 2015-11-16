@@ -1,0 +1,18 @@
+.panel-section-prefight {
+    border: 2px solid #7fb96a;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.inner-div-prefight {
+    padding: 0px 15px 15px;
+    text-align: center;
+}
+
+.prefight-player-section {
+    padding: 0px 15px 15px;
+    border: 1px groove;
+    margin-bottom: 15px;
+}

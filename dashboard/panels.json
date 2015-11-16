@@ -1,0 +1,32 @@
+[
+  {
+    "name": "commentators",
+    "title": "CommentatorScreen",
+    "width": 2,
+    "file": "CommentatorScreenDashboard.html"
+  },
+  {
+    "name": "players",
+    "title": "Player Control",
+    "width": 3,
+    "file": "PlayerPanelDashboard.html"
+  },
+  {
+    "name": "prefight",
+    "title": "Prefight",
+    "width": 3,
+    "file": "PrefightDashboard.html"
+  },
+  {
+    "name": "streamcontrol",
+    "title": "StreamControl",
+    "width": 2,
+    "file": "StreamControlDashboard.html"
+  },
+  {
+    "name": "roundrobintable",
+    "title": "RoundRobinTable",
+    "width": 3,
+    "file": "RoundRobinTableDashboard.html"
+  }
+]

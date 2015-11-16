@@ -1,0 +1,18 @@
+.panel-section-commentator {
+    border: 2px solid #b93c99;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.inner-div-commentator {
+    padding: 0px 15px 15px;
+    text-align: center;
+}
+
+.commentator-section {
+    padding: 0px 15px 15px;
+    border: 1px groove;
+    margin-bottom: 15px;
+}

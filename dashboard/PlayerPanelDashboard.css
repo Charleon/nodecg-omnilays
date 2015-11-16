@@ -1,0 +1,13 @@
+.panel-section {
+    border: 2px solid #008bb9;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.inner-div {
+    padding: 0px 15px 15px;
+    text-align: center;
+}
+

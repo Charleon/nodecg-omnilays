@@ -1,0 +1,53 @@
+.panel-section-roundrobin {
+    border: 2px solid #b90716;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.inner-div-roundrobin {
+    padding: 0px 15px 15px;
+    text-align: center;
+}
+
+ .roundRobinResultOption {
+     min-width: 100px;
+     width: 50px;
+     text-align: left;
+ }
+table {
+    table-layout: fixed;
+}
+tr {
+    background-color: transparent;
+}
+
+#roundrobin-table {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+td {
+    min-width: 70px;
+}
+
+td.roundRobinPlayerTopCorner {
+
+}
+
+td.roundRobinPlayerTopRow {
+    transform: rotate(90deg);
+    transform-origin: left top center;
+    height: 60px;
+    max-height: 60px;
+    width: 150px;
+}
+
+#roundrobin-number-posx,#roundrobin-number-posy {
+    width: 100px;
+}
+

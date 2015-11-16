@@ -1,0 +1,11 @@
+{
+	"name": "OMNILays",
+	"version": "0.7",
+	"nodecgDependency": ">= 0.6.0",
+	"description": "Dynamic Stream overlays for fightinggames.",
+	"homepage": "www.twitch.tv/sethcharleon",
+	"authors": [
+		"Tobias Palm Nerg (@CharleonChan)"
+	],
+	"license": "MIT"
+}
