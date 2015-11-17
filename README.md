@@ -20,7 +20,7 @@ Make a new folder, in that folder, rightclick, choose "Open Git Bash.." and in t
    * npm install nodecg-cli -g 
    * mkdir nodecg && cd nodecg 
    * nodecg setup
-2. download and extract this bundle into nodecg/bundles
+2. download and extract this bundle into nodecg/bundles, rename the folder to "OMNILays", it should NOT be named "nodecg-omnilays"
 3. in the nodecg folder, rightclick and choose “open git bash here”.
 5. In the prompt, type ‘nodecg start’ and keep the prompt open for as long as you use the overlay
 6. The above step set up a local server on your computer so you can now test it out! either in your browser (Chrome is the only one that gives the CORRECT result), or in xSplit or OBS
