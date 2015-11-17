@@ -50,11 +50,19 @@ roundRobinConfiguration.on("change", function(oldValue, newValue){
     if(typeof newValue === 'undefined') {
         return;
     }
-    roundRobinConfigurationContainer = newValue;
     if(!valuesLoaded) {
-        roundRobinConfigurationContainer = newValue;
-        $posX.val(roundRobinConfigurationContainer.tablePosX);
-        $posY.val(roundRobinConfigurationContainer.tablePosY);
+        if (typeof newValue.windowPosition.posX !== "undefined" && Number(newValue.windowPosition.posX) > 0) {
+            $posX.val(newValue.windowPosition.posX);
+        }
+        else {
+            $posX.val(0);
+        }
+        if (typeof newValue.windowPosition.posY !== "undefined" && Number(newValue.windowPosition.posY) > 0) {
+            $posY.val(newValue.windowPosition.posY);
+        }
+        else {
+            $posY.val(0);
+        }
         valuesLoaded = true;
     }
 });
@@ -165,7 +173,7 @@ $createTableButton.click(function() {
     }
     createPlayerHtmlString += "<hr>";
     $createPlayerContainerDiv.html(createPlayerHtmlString);
-    $(".roundrobin-nameselect").change(updatePlayerNamesInTable);
+    $(".OMNILays .roundrobin-nameselect").change(updatePlayerNamesInTable);
     regenerateTable();
 
     $('#roundRobinPositionInputs').show();
@@ -197,7 +205,7 @@ function updateRoundRobinPlayers(data)
         listItems += "<option value='" + data.players[i].sNickName + "'>" + data.players[i].sNickName + "</option>";
     }
 
-    $(".roundrobin-nameselect").each(function(){
+    $(".OMNILays .roundrobin-nameselect").each(function(){
         var player = {'name':"", 'index':0};
         player.name= $(this).find("option:selected").text();
         player.index = $(this).prop('selectedIndex');
@@ -295,7 +303,7 @@ function regenerateTable()
 
     // Logic for automatically filling in the opposing value in the table, e.g Mark W against Ross,
     // Then Ross automatically L against Mark. Saves some interaction!
-    $(".playerSpecificResult").change(function(){
+    $(".OMNILays .playerSpecificResult").change(function(){
         var numberPattern = /\d+/g;
         var id = $(this).attr('id');
         var optionValue = $(this).val();

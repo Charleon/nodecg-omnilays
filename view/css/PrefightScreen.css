@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'OswaldRegular';
-    src: url('img/Oswald-Regular.eot');
-    src: url('img/Oswald-Regular.ttf') format('truetype');
+    src: url('../img/Oswald-Regular.eot');
+    src: url('../img/Oswald-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RedXrd';
-    src: url('img/1_class_3_RED.ttf');
-    src: url('img/1_class_3_RED.ttf') format('truetype');
+    src: url('../img/1_class_3_RED.ttf');
+    src: url('../img/1_class_3_RED.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OswaldBold';
-    src: url('img/Oswald-Bold.eot');
-    src: url('img/Oswald-Bold.ttf') format('truetype');
+    src: url('../img/Oswald-Bold.eot');
+    src: url('../img/Oswald-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

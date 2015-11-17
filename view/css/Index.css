@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../img/Oswald-Regular.eot');
+    src: url('../img/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#index-menu {
+    font-family: OswaldRegular;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    line-height: 80px;
+}
+
+#window-container {
+    background-color: black;
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}

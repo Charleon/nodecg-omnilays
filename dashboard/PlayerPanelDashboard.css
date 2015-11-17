@@ -1,4 +1,4 @@
-.panel-section {
+.panel-section-players {
     border: 2px solid #008bb9;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -6,7 +6,7 @@
     margin-bottom: 5px;
 }
 
-.inner-div {
+.inner-div-players {
     padding: 0px 15px 15px;
     text-align: center;
 }
