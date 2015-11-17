@@ -1,5 +1,7 @@
 [![OMNILays Logo](http://i.imgur.com/nh4z4QM.png)](http://www.twitch.com/sethcharleon)
 
+**Current Version:** 1.0 Beta
+
 OMNILays is a collection of functional overlays aimed for the fighting-game scene. The first version contains content
 to get started streaming and is themed heavily towards Guilty Gear -Xrd Sign-, however, as the name entitles; the goal
 is to make a final product that's easily skinnable and modular.
