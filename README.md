@@ -1,4 +1,4 @@
-[![OMNILays Logo](http://i.imgur.com/qqTP9P6.png?1)]
+![OMNILays Logo](http://i.imgur.com/qqTP9P6.png?1)
 
 **Current Version:** 1.0 Beta
 
