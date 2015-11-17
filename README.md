@@ -1,4 +1,4 @@
-[![OMNILays Logo](http://i.imgur.com/nh4z4QM.png)](http://www.twitch.com/sethcharleon)
+[![OMNILays Logo](http://i.imgur.com/qqTP9P6.png?1)]
 
 **Current Version:** 1.0 Beta
 
