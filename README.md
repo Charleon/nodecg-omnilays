@@ -30,20 +30,25 @@ For OBS you need the [CLR Browser Plugin](https://obsproject.com/forum/resources
 Open **http://localhost:9090/dashboard/#** to see the dashboard. From here you control the rest of the overlay. You should do this from your browser.
 
 ##### http://localhost:9090/view/OMNILays/MatchScreen.html 
+![MatchScreen](http://i.imgur.com/rnpHY7I.png)
 This screen contains the Player Panels, controlled through Player Control Panel and Stream Control Panel in the dashboard. Test in browser or directly in OBS/xSplit
 * Support for Adding, Removing and Renaming players.
 * Support to tie a specific player to a country flag.
 * Optional special animation for winner in FT3, FT5 or FT10 Matches
 
 ##### http://localhost:9090/view/OMNILays/RoundRobinTable.html
+![RoundRobinTable](http://i.imgur.com/YMHcxRE.png)
+
 This screen contains the roundrobin-table and is controlled by the RoundRobinTable panel in the dashboard
 * Support to place the table according to your wishes
 * Support for Win/Lose syntax, or 1-5 syntax.
 
 ##### http://localhost:9090/view/OMNILays/CommentatorScreen.html
+![CommentatorScreen](http://i.imgur.com/eJPFoiD.png)
 This screen shows commentator names and twitter for up to two commentators and is controlled by the CommentatorScreen Panel in the Dashboard
 
 ##### http://localhost:9090/view/OMNILays/PrefightScreen.html
+![PrefightScreen](http://i.imgur.com/TodC4Lf.png)
 This screen shows information about player names, characters and what type of match it is (usable for e.g Pools, Winners, Winners Round 2, etc etc) and is controlled by the Prefight Screen Dashboard
 
 ### License
