@@ -28,7 +28,8 @@ For OBS you need the [CLR Browser Plugin](https://obsproject.com/forum/resources
 
 ### Usage
 Open **http://localhost:9090/dashboard/#** to see the dashboard. From here you control the rest of the overlay. You should do this from your browser.
-
+##### http://localhost:9090/view/OMNILays
+Will display a menu with links where you can choose which screen to display. Useful if you're pasting in several screens
 ##### http://localhost:9090/view/OMNILays/MatchScreen.html 
 ![MatchScreen](http://i.imgur.com/rnpHY7I.png)
 This screen contains the Player Panels, controlled through Player Control Panel and Stream Control Panel in the dashboard. Test in browser or directly in OBS/xSplit
