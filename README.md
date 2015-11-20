@@ -7,6 +7,8 @@ to get started streaming and is themed heavily towards Guilty Gear -Xrd Sign-, h
 is to make a final product that's easily skinnable and modular.
 It is primarily aimed at [Twitch](http://twitch.tv) broadcasters using [Open Broadcaster Software](https://obsproject.com/) or 
 [xSplit](https://www.xsplit.com/), but is usable in any environment that can render HTML.
+### Preview
+https://www.youtube.com/watch?v=oiDo9txc5Zs
 
 ### Installation
 There are two prerequisites to get OMNILays working.
