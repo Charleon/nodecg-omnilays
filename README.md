@@ -21,11 +21,14 @@ Then:
 Make a new folder, in that folder, rightclick, choose "Open Git Bash.." and in the prompt, type:
    * npm install nodecg-cli -g 
    * mkdir nodecg && cd nodecg 
-   * nodecg setup
-2. download and extract this bundle into nodecg/bundles, rename the folder to "OMNILays", it should NOT be named "nodecg-omnilays"
+   * nodecg setup 0.6.3
+   * npm install
+   * bower install
 3. in the nodecg folder, rightclick and choose “open git bash here”.
-5. In the prompt, type ‘nodecg start’ and keep the prompt open for as long as you use the overlay
-6. The above step set up a local server on your computer so you can now test it out! either in your browser (Chrome is the only one that gives the CORRECT result), or in xSplit or OBS
+4. in the nodecg root; type 'nodecg install charleon/nodecg-omnilays' to install this bundle
+5. rename the nodecg/bundles/nodecg-omnilays folder to OMNILays ( I need to fix this, this step should not be mandatory ;_;)
+6. In the prompt, type ‘nodecg start’ and keep the prompt open for as long as you use the overlay
+7. The above step set up a local server on your computer so you can now test it out! either in your browser (Chrome is the only one that gives the CORRECT result), or in xSplit or OBS
 For OBS you need the [CLR Browser Plugin](https://obsproject.com/forum/resources/clr-browser-source-plugin.22/), but the latest xSplit version already has support to add web url:s using the "Add page URL.." option
 
 ### Usage
