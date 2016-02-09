@@ -11,3 +11,86 @@
     text-align: center;
 }
 
+.playerRow {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    height: 50px;
+}
+
+.playerName {
+    flex: 1 50%;
+    margin-right: 10px;
+}
+
+.playerScore {
+    flex: 2 10%;
+    margin-right: 10px;
+}
+
+
+#p1NickName-dropdown {
+    height: 25px;
+    width: 100%;
+}
+
+#xrd-p1Score {
+    width: 100%;
+    height: 30px;
+}
+
+#p2NickName-dropdown {
+    height: 25px;
+    width: 100%;
+}
+
+#xrd-p2Score {
+    width: 100%;
+    height: 30px;
+}
+
+#players-dashboard {
+    width: 100%;
+}
+
+.playerScorePlus {
+    padding-top: 18px;
+    flex: 3 50px;
+}
+
+#player1PlusScore {
+    height: 40px;
+    width: 40px;
+}
+
+#player2PlusScore {
+    height: 40px;
+    width: 40px;
+}
+
+#playerOneTwoScores {
+    height: 150px;
+}
+
+#matchStyleRadios {
+    text-align: center;
+    width: 100%;
+}
+
+#matchStyleContainer {
+    margin-bottom: 10px;
+}
+
+#addPlayerContainer,#playerRemoveContainer,#playerChangeContainer {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+} 
+
+#playerNickName,#xrd-p1Flag,#playerRemove-dropdown,#playerNick-changeto-input,#playerChange-dropdown {
+    height: 30px;
+    width: 90%;
+    margin-bottom: 5px;
+}

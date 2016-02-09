@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../img/Oswald-Regular.eot');
+    src: url('../img/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedXrd';
+    src: url('../img/1_class_3_RED.ttf');
+    src: url('../img/1_class_3_RED.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('../img/Oswald-Bold.eot');
+    src: url('../img/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+}
+
+#window-container {
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+}
+
+#commentator-one-name {
+    position: absolute;
+    font-family: RedXrd;
+    font-size: 46px;
+    color: #c0b19c;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    background-image: url('/graphics/nodecg-omnilays/img/CommentatorPanelName.png');
+    width: 344px;
+    height: 99px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#commentator-one-twitter {
+    position: absolute;
+    font-family: RedXrd;
+    font-size: 24px;
+    color: #c0b19c;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    background-image: url('/graphics/nodecg-omnilays/img/CommentatorPanelTwitter.png');
+    width: 340px;
+    height: 85px;
+    top: 15px;
+    left: 0px;
+    z-index: 1;
+}
+
+#commentator-one-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+#commentator-two-name {
+    position: absolute;
+    font-family: RedXrd;
+    font-size: 46px;
+    color: #c0b19c;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    background-image: url('/graphics/nodecg-omnilays/img/CommentatorPanelName.png');
+    transform: scaleX(-1);
+    width: 344px;
+    height: 99px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#commentator-two-twitter-text {
+    transform: scaleX(-1);
+}
+
+#commentator-two-name-text {
+    transform: scaleX(-1);
+}
+
+#commentator-two-twitter {
+    position: absolute;
+    font-family: RedXrd;
+    font-size: 24px;
+    color: #c0b19c;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    background-image: url('/graphics/nodecg-omnilays/img/CommentatorPanelTwitter.png');
+    transform: scaleX(-1);
+    width: 340px;
+    height: 85px;
+    top: 15px;
+    left: 0px;
+    z-index: 1;
+}
+
+#commentator-two-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}

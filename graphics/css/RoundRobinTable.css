@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../img/Oswald-Regular.eot');
+    src: url('../img/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedXrd';
+    src: url('../img/1_class_3_RED.ttf');
+    src: url('../img/1_class_3_RED.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('../img/Oswald-Bold.eot');
+    src: url('../img/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+}
+
+#window-container {
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+}
+
+.roundRobinResultOption {
+    width: 50px;
+}
+
+table {
+    font-size: 14px;
+}
+
+.roundRobinResultOption {
+    width: 50px;
+}
+
+table {
+    border-spacing: 1px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    font-family: 'OswaldRegular', helvetica, arial;
+}
+
+tr {
+    height: 40px;
+    background-color: transparent;
+}
+
+div.rotatedText {
+    transform: rotate(90deg) translateX(-15%);
+    transform-origin: left bottom;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+    width: 150px;
+    height: 30px;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+
+div.XrdLogo {
+    background-image: url('/graphics/nodecg-omnilays/img/ggse.png');
+    min-width: 160px;
+    min-height: 160px;
+    position: fixed;
+    top: 800px;
+    left: 800px;
+    zoom: 0.75;
+    opacity: 0;
+}
+
+
+div.roundRobinLost {
+    background-image: url('/graphics/nodecg-omnilays/img/RoundRobinLostCross.png');
+    min-width: 40px;
+    min-height: 40px;
+}
+
+div.roundRobinWon {
+    background-image: url('/graphics/nodecg-omnilays/img/RoundRobinWinCrown.png');
+    min-width: 40px;
+    min-height: 40px;
+}
+
+td {
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+td.roundRobinPlayerTopRow {
+    background-image: url('/graphics/nodecg-omnilays/img/RoundRobinTopBackground.png');
+     background-color: rgba(0,0,0,0.9);
+     height: 110px;
+     max-width: 40px;
+     width: 40px;
+     color: white;
+     vertical-align: top;
+}
+
+td.roundRobinPlayerLeftRow {
+    width: 90px;
+    padding-right: 20px;
+    background-color: rgba(0,0,0,0.9);
+    background-image: url('/graphics/nodecg-omnilays/img/RoundRobinLeftBackground.png');
+    text-align: right;
+}
+
+td.roundRobinPlayerResult {
+    text-align: center;
+    max-width: 40px;
+    width: 40px;
+    max-height: 40px;
+    height: 40px;
+    background-image: url('/graphics/nodecg-omnilays/img/RoundRobinBackground.png');
+    color: white;
+    border: 1px solid black;
+    border-spacing: 1px;
+}
+
+td.roundRobinPlayerTopCorner {
+    background-image: url('/graphics/nodecg-omnilays/img/ggse.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color:transparent;
+    zoom: 0.75;
+    opacity: 0.5;
+}
+
+td.roundRobinUnusedField {
+    background-image: url('/graphics/nodecg-omnilays/img/RoundRobinDisabled.png');
+}
+
+#roundRobinPlayerLeftRow1, #roundRobinPlayerTopRow1 {
+    background-color: rgba(240, 0, 0, 0.4);
+}
+
+#roundRobinPlayerLeftRow2, #roundRobinPlayerTopRow2 {
+    background-color: rgba(240, 240, 0, 0.4);
+}
+
+#roundRobinPlayerLeftRow3, #roundRobinPlayerTopRow3 {
+    background-color: rgba(147, 112, 219, 0.4);
+}
+
+#roundRobinPlayerLeftRow4, #roundRobinPlayerTopRow4 {
+    background-color: rgba(0, 0, 128, 0.4);
+}
+
+#roundRobinPlayerLeftRow5, #roundRobinPlayerTopRow5 {
+    background-color: rgba(128, 0, 128, 0.4);
+}
+
+
