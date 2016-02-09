@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../img/Oswald-Regular.eot');
+    src: url('../img/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedXrd';
+    src: url('../img/1_class_3_RED.ttf');
+    src: url('../img/1_class_3_RED.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('../img/Oswald-Bold.eot');
+    src: url('../img/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+}
+
+#window-container {
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+}
+
+#p1NamePrefight {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 467px;
+    height: 164px;
+    background-image: url('/graphics/nodecg-omnilays/img/NameBackground.png');
+    opacity: 0;
+    z-index: 4;
+}
+
+#p1NamePrefight-text {
+    color: white;
+    font-size: 60px;
+    font-family: RedXrd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 175px;
+}
+
+#p2NamePrefight-text {
+    color: white;
+    font-size: 60px;
+    font-family: RedXrd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 175px;
+}
+
+#p2NamePrefight {
+    font-family: RedXrd;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 467px;
+    height: 164px;
+    background-image: url('/graphics/nodecg-omnilays/img/NameBackground.png');
+    opacity: 0;
+    z-index: 4;
+}
+
+#matchTypePrefight {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 344px;
+    height: 140px;
+    background-image: url('/graphics/nodecg-omnilays/img/MatchType.png');
+    opacity: 0;
+    z-index: 2;
+}
+
+#matchTypePrefight-text {
+    color: white;
+    font-size: 46px;
+    font-family: RedXrd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 135px;
+}
+
+#sidebarLeftPrefight {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 66px;
+    height: 855px;
+    background-image: url('/graphics/nodecg-omnilays/img/SideBar.png');
+    opacity: 0;
+    z-index: 5;
+}
+
+#sidebarRightPrefight {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 66px;
+    height: 855px;
+    transform: scaleX(-1);
+    background-image: url('/graphics/nodecg-omnilays/img/SideBar.png');
+    opacity: 0;
+    z-index: 5;
+}
+
+#characterAreaPrefight {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 1280px;
+    height: 541px;
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterArea.png');
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+}
+
+#p1Character {
+    top: 50px;
+    left: 100px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#p2Character {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.characterSol {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Sol.png');
+    background-repeat: no-repeat;
+}
+
+.characterKy {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Ky.png');
+    background-repeat: no-repeat;
+}
+
+.characterVenom {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Venom.png');
+    background-repeat: no-repeat;
+}
+
+.characterPotemkin {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Potemkin.png');
+    background-repeat: no-repeat;
+}
+
+.characterElphelt {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Elphelt.png');
+    background-repeat: no-repeat;
+}
+
+.characterBedman {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Bedman.png');
+    background-repeat: no-repeat;
+}
+
+.characterIno {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Ino.png');
+    background-repeat: no-repeat;
+}
+
+.characterMillia {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Millia.png');
+    background-repeat: no-repeat;
+}
+
+.characterAxl {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Axl.png');
+    background-repeat: no-repeat;
+}
+
+.characterRam {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Ram.png');
+    background-repeat: no-repeat;
+}
+
+.characterZato {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Zato.png');
+    background-repeat: no-repeat;
+}
+
+.characterSin {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Sin.png');
+    background-repeat: no-repeat;
+}
+
+.characterSlayer {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Slayer.png');
+    background-repeat: no-repeat;
+}
+
+.characterLeo {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Leo.png');
+    background-repeat: no-repeat;
+}
+
+.characterChipp {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Chipp.png');
+    background-repeat: no-repeat;
+}
+
+.characterFaust {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/Faust.png');
+    background-repeat: no-repeat;
+}
+
+.characterMay {
+    background-image: url('/graphics/nodecg-omnilays/img/CharacterPortraits/May.png');
+    background-repeat: no-repeat;
+}

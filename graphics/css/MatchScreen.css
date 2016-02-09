@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../img/Oswald-Regular.eot');
+    src: url('../img/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedXrd';
+    src: url('../img/1_class_3_RED.ttf');
+    src: url('../img/1_class_3_RED.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('../img/Oswald-Bold.eot');
+    src: url('../img/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+}
+
+#window-container {
+   /* background-image: url('/view/nodecg-omnilays/img/xrdbg.jpg');*/
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+}
+
+#player1 {
+    background-image: url('/graphics/nodecg-omnilays/img/PanelBg.png');
+    width: 300px;
+    height: 45px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    opacity: 1;
+    color: white;
+    overflow:hidden;
+    font-family: 'OswaldRegular', helvetica, arial;
+    font-size: 20px;
+}
+
+#player2 {
+    background-image: url('/graphics/nodecg-omnilays/img/PanelBgP2.png');
+    width: 300px;
+    height: 45px;
+    float: left;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    opacity: 1;
+    color: white;
+    overflow: hidden;
+    font-family: 'OswaldRegular', helvetica, arial;
+    font-size: 20px;
+}
+
+.flag {
+    padding-right: 15px;
+    margin: 5px;
+    overflow:hidden;
+}
+
+.score {
+    width: 20px;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 0 0 20px #ffffff;
+    font-size: 24px;
+    font-family: RedXrd;
+}
+
+.tag {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-basis: 520px;
+    font-family: RedXrd;
+    font-size: 24px;
+}
+
+#p2tag {
+    text-align: right;
+}
+
+#p1tag {
+    text-align: left;
+}
+
+.playercontainer {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+}
+
+.playerOneCogWheel {
+    display: flex;
+    position: absolute;
+    top: -40px;
+    left: 160px;
+    width: 100px;
+    height: 100px;
+    zoom: 0.7;
+}
+
+.playerTwoCogWheel {
+    display: flex;
+    position: absolute;
+    top: -40px;
+    left: 1590px;
+    width: 100px;
+    height: 100px;
+    zoom: 0.7;
+}
+
+#winsPicture {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 60px;
+    background-image: url('/graphics/nodecg-omnilays/img/Wins.png');
+}
+
+#losesPicture {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 60px;
+    background-image: url('/graphics/nodecg-omnilays/img/Loses.png');
+}
+
+div.XrdLogo {
+    background-image: url('/graphics/nodecg-omnilays/img/ggse.png');
+    min-width: 160px;
+    min-height: 160px;
+    position: fixed;
+    top: 800px;
+    left: 800px;
+    zoom: 0.75;
+    opacity: 0;
+}
+

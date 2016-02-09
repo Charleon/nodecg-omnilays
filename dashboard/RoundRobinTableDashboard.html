@@ -1,19 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="components/jquery/dist/jquery.js"></script>
+    <script src="RoundRobinTableDashboard.js"></script>
+    <link rel="stylesheet" href="RoundRobinTableDashboard.js">
+    <script src="components/jquery-ui/jquery-ui.js"></script>
+    <link rel="stylesheet" href="components/jquery-ui/themes/redmond/jquery-ui.css"/>
+</head>
+<body>
 <div id="roundrobintable-dashboard">
     <form action="">
         <div class="panel-section-roundrobin inner-div-roundrobin">
             <div class="row">
-                <div class="form-group col-xs-12">
+                <div class="">
                 </div>
             </div>
             <div class="row">
-                <div class="form-group col-xs-12">
+                <div class="">
                     <input type="number" class="form-control" id="roundrobin-number-players" value="0"> Number of players <br><br>
-                    <button type="button" class="OMNILays-roundrobin-create btn btn-xs btn-primary" style="width: 100%">Create Table</button>
+                    <button type="button" class="OMNILays-roundrobin-create " style="width: 100%">Create Table</button>
                 </div>
             </div>
             <hr>
             <div class="row">
-                <div class="form-group col-xs-12">
+                <div class="">
                     <h4>Players</h4>
                     <div id="roundrobin-create-player-container">After you press "Create table" this text will be replaced by the player's you've added and the table!</div>
                 </div>
@@ -24,25 +36,27 @@
             </div>
             <hr>
             <div class="row">
-                <div class="form-group col-xs-12">
+                <div class="">
                     <h4>Round Robin Table Configuration</h4>
                 </div>
             </div>
             <div id="roundRobinPositionInputs">
                 <div class="row">
-                    <div class="form-group col-xs-12">
-                        <input type="number" class="form-group" id="roundrobin-number-posx" value="300">  X-Position
+                    <div class="">
+                        <input type="number"  id="roundrobin-number-posx" value="300">  X-Position
                     </div>
                 </div>
                 <div class="row">
-                    <div class="form-group col-xs-12">
-                        <input type="number" class="form-group" id="roundrobin-number-posy" value="300">  Y-Position
+                    <div class="">
+                        <input type="number"  id="roundrobin-number-posy" value="300">  Y-Position
                     </div>
                 </div>
             </div>
             <hr>
-            <button type="button" class="OMNILays-roundrobin-update btn btn-xs btn-primary" style="width: 100%">Send Update To View</button>
-            <button type="button" class="OMNILays-roundrobin-toggleshow btn btn-xs btn-primary" style="width: 100%">Hide/Show</button>
+            <button type="button" class="OMNILays-roundrobin-update " style="width: 100%">Send Update To View</button>
+            <button type="button" class="OMNILays-roundrobin-toggleshow " style="width: 100%">Hide/Show</button>
         </div>
     </form>
 </div>
+</body>
+</html>
