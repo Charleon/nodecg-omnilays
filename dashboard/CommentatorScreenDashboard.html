@@ -1,42 +1,45 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <script src="components/jquery/dist/jquery.js"></script>
-    <script src="CommentatorScreenDashboard.js"></script>
-    <link rel="stylesheet" href="CommentatorScreenDashboard.css">
-    <script src="components/jquery-ui/jquery-ui.js"></script>
-    <link rel="stylesheet" href="components/jquery-ui/themes/redmond/jquery-ui.css"/>
-</head>
-<body>
 <div id="commentators-dashboard">
-    <div class="commentator-section">
-        <div class="">
-            <h5>Commentator One</h5>
+    <form action="">
+        <div class="panel-section-commentator inner-div-commentator">
+            <div class="row">
+                <div class="form-group col-xs-12">
+                </div>
+            </div>
+            <div class="commentator-section">
+                <div class="form-group col-xs-12">
+                    <h5>Commentator One</h5>
+                </div>
+                <div class="row">
+                    <div class="form-group col-xs-11">
+                        <input type="text" class="form-control" id="commentator_one_name" placeholder="Nickname">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-xs-11">
+                        <input type="text" class="form-control" id="commentator_one_twitter" placeholder="Twitter">
+                    </div>
+                </div>
+            </div>
+            <div class="commentator-section">
+                <div class="form-group col-xs-12">
+                    <h5>Commentator Two</h5>
+                </div>
+                <div class="row">
+                    <div class="form-group col-xs-11">
+                        <input type="text" class="form-control" id="commentator_two_name" placeholder="Nickname">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-xs-11">
+                        <input type="text" class="form-control" id="commentator_two_twitter" placeholder="Twitter">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <button type="button" class="btn btn-xs btn-primary" id="commentator-update-btn" style="width: 100%">Send Update To View</button>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <input type="text" class="inputField" id="commentator_one_name" placeholder="Nickname">
-        </div>
-        <div class="row">
-            <input type="text" class="inputField" id="commentator_one_twitter" placeholder="Twitter">
-        </div>
-    </div>
-    <div class="commentator-section">
-        <div class="">
-            <h5>Commentator Two</h5>
-        </div>
-        <div class="row">
-            <input type="text" class="inputField" id="commentator_two_name" placeholder="Nickname">
-        </div>
-        <div class="row">
-            <input type="text" class="inputField" id="commentator_two_twitter" placeholder="Twitter">
-        </div>
-    </div>
-    <div class="row">
-        <button type="button" id="commentatorUpdateButton">Send Update To View</button>
-    </div>
+    </form>
 </div>
-</body>
-</html>
