@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'OswaldRegular';
-    src: url('../img/Oswald-Regular.eot');
-    src: url('../img/Oswald-Regular.ttf') format('truetype');
+    src: url('../img/imagine_font.eot');
+    src: url('../img/imagine_font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,18 +23,22 @@
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
 #window-container {
-   /* background-image: url('/view/nodecg-omnilays/img/xrdbg.jpg');*/
+   /* background-image: url('/graphics/nodecg-omnilays/img/UNIELSS.png');*/
     width: 1280px;
     height: 720px;
     overflow: hidden;
+    margin: 0px;
+    padding: 0px;
 }
 
 #player1 {
-    background-image: url('/graphics/nodecg-omnilays/img/PanelBg.png');
+    background-image: url('/graphics/nodecg-omnilays/img/UNIEL/PanelBg.png');
     width: 300px;
     height: 45px;
     float: left;
@@ -51,7 +55,7 @@ body {
 }
 
 #player2 {
-    background-image: url('/graphics/nodecg-omnilays/img/PanelBgP2.png');
+    background-image: url('/graphics/nodecg-omnilays/img/UNIEL/PanelBgP2.png');
     width: 300px;
     height: 45px;
     float: left;
@@ -77,16 +81,17 @@ body {
     width: 20px;
     margin: 10px;
     text-align: center;
-    text-shadow: 0 0 20px #ffffff;
+    text-shadow: 2px 2px 4px rgba(255,0,0,1);
     font-size: 24px;
-    font-family: RedXrd;
+    font-family: OswaldRegular;
 }
 
 .tag {
     margin-left: 5px;
     margin-right: 5px;
     flex-basis: 520px;
-    font-family: RedXrd;
+    font-family: OswaldRegular;
+    text-shadow: 2px 2px 4px rgba(255,0,0,1);
     font-size: 24px;
 }
 

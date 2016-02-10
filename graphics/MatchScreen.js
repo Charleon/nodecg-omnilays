@@ -56,13 +56,11 @@ $(function() {
         var p2new = false;
         var tm = new TimelineMax({paused: true});
 
-        if($('#p1tag').text() !== playerData.players[0].sNickName) {
-            tm.to($('.playerOneCogwheel'), 0.8, {transform: 'rotate(-90deg)', ease: Quad.easeIn }, '0.0');
+        if($('#p1tag').text().toUpperCase() !== playerData.players[0].sNickName.toUpperCase()) {
             tm.to($('#player1'), 0.8, {transform: 'translate(170px,-100px)', ease: Quad.easeIn }, '0.0');
             p1new = true;
         }
-        if($('#p2tag').text() !== playerData.players[1].sNickName) {
-            tm.to($('.playerTwoCogwheel'), 0.8, {transform: 'rotate(90deg)', ease: Quad.easeIn }, '0.0');
+        if($('#p2tag').text().toUpperCase() !== playerData.players[1].sNickName.toUpperCase()) {
             tm.to($('#player2'), 0.8, {transform: 'translate(825px,-100px)', ease: Quad.easeIn }, '0.0');
             p2new = true;
         }
@@ -75,12 +73,10 @@ $(function() {
         }
 
         if(p1new) {
-            tm.to($('#player1'), 0.9, {transform: 'translate(170px,50px)', ease: Quad.easeOut, onStart:setText, onStartParams: [playerData]}, '1.0');
-            tm.to($('.playerOneCogwheel'), 0.9, {transform: 'rotate(90deg)', ease: Quad.easeOut }, '1.0');
+            tm.to($('#player1'), 0.9, {transform: 'translate(108px,60px)', ease: Quad.easeOut, onStart:setText, onStartParams: [playerData]}, '0.8');
         }
         if (p2new) {
-            tm.to($('#player2'), 0.9, {transform: 'translate(825px,50px)', ease: Quad.easeOut, onStart:setText, onStartParams: [playerData]}, '1.0');
-            tm.to($('.playerTwoCogwheel'), 0.9, {transform: 'rotate(-90deg)', ease: Quad.easeOut }, '1.0');
+            tm.to($('#player2'), 0.9, {transform: 'translate(870px,60px)', ease: Quad.easeOut, onStart:setText, onStartParams: [playerData]}, '0.8');
         }
         tm.play();
     }
@@ -93,7 +89,7 @@ $(function() {
                               playerData.players[1].nScore >= scoreWhenPlayerHasWon;
         var p1ScoreHigherThanBefore = Number($('#p1score').text()) < Number(playerData.players[0].nScore);
         var p2ScoreHigherThanBefore = Number($('#p2score').text()) < Number(playerData.players[1].nScore)
-        $('#p1tag').text(playerData.players[0].sNickName);
+        $('#p1tag').text(playerData.players[0].sNickName.toUpperCase());
         if($('#p1score').text() != playerData.players[0].nScore) {
             if(!hasAnyPlayerWon) {
                 var scoreColor = '';
@@ -120,7 +116,7 @@ $(function() {
             tm.to($('#p1score'), 0.2, {transform: 'scale(1,1)', color: '#ffffff', ease: Quad.easeIn}, '0');
         }
 
-        $('#p2tag').text(playerData.players[1].sNickName);
+        $('#p2tag').text(playerData.players[1].sNickName.toUpperCase());
         if($('#p2score').text() != playerData.players[1].nScore) {
             if(!hasAnyPlayerWon) {
                 var scoreColor = '';

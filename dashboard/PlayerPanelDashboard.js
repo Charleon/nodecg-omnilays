@@ -27,13 +27,6 @@ $(function () {
     $playersRemoveAllButton.button();
     $playersChangeNickButton.button();
 
-    $p1DropDownMenu.selectmenu({ style: 'dropdown' });
-    $p2DropDownMenu.selectmenu({ style: 'dropdown' });
-    $removeDropDownMenu.selectmenu({ style: 'dropdown' });
-    $changeDropDownMenu.selectmenu({ style: 'dropdown' });
-
-    //$('#xrd-p1Flag').selectmenu({maxHeight: 200});
-
     $('#xrd-p1Score').spinner();
     $('#xrd-p2Score').spinner();
 
@@ -238,19 +231,12 @@ $(function () {
     /* Controlling panel components ********************/
     /***************************************************/
     function updatePlayerDropDowns(playerArray) {
-
         if(!playerArray || !playerArray.players || playerArray.players.length <= 0) {
             var listItems = "<option value='Player 1'>" + 'Player 1' + "</option>";
             $p1DropDownMenu.html(listItems);
             $p2DropDownMenu.html(listItems);
             $removeDropDownMenu.html(listItems);
             $changeDropDownMenu.html(listItems);
-            $p1DropDownMenu.selectmenu("refresh");
-            $p2DropDownMenu.selectmenu("refresh");
-            $removeDropDownMenu.selectmenu("refresh");
-            $changeDropDownMenu.selectmenu("refresh");
-
-            console.log("returning");
             return;
         }
 
@@ -274,11 +260,6 @@ $(function () {
         $p2DropDownMenu.html(listItems);
         $removeDropDownMenu.html(listItems);
         $changeDropDownMenu.html(listItems);
-
-        $p1DropDownMenu.selectmenu("refresh");
-        $p2DropDownMenu.selectmenu("refresh");
-        $removeDropDownMenu.selectmenu("refresh");
-        $changeDropDownMenu.selectmenu("refresh");
 
         var playerData = findPlayerName(p1SelectedNickName);
 
