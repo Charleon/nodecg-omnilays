@@ -27,8 +27,7 @@ Make a new folder, in that folder, rightclick, choose "Open Git Bash.." and in t
    * bower install
    * nodecg install charleon/nodecg-omnilays
    * cd bundles/nodecg-omnilays
-   * git checkout unielgraphics 
-   The last line will switch from the xrd nameplates to the uniel nameplates
+   * git checkout v0.7 (git checkout unielgraphics will replace the graphics of the MatchScreen for UNIEL styled graphics) 
 6. In the prompt, under the nodecg root type ‘nodecg start’ and keep the prompt open for as long as you use the overlay
 7. The above step set up a local server on your computer so you can now test it out! either in your browser (Chrome is the only one that gives the CORRECT result), or in xSplit or OBS
 For OBS you need the [CLR Browser Plugin](https://obsproject.com/forum/resources/clr-browser-source-plugin.22/), but the latest xSplit version already has support to add web url:s using the "Add page URL.." option
