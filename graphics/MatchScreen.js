@@ -29,10 +29,9 @@ $(function() {
     var matchScreenPlayerUpdateDataReplicant = nodecg.Replicant("matchScreenPlayerUpdateData");
     matchScreenPlayerUpdateDataReplicant.on("change", function (oldValue, newValue) {
         // Don't do anything if we don't have any data to work with.
-        if(typeof newValue === 'undefined') {
+        if(typeof newValue === 'undefined' || newValue == '') {
             return;
         }
-        // We have set it to true ourselves to signify that we have handled the data
         if(newValue === true) {
             return;
         }

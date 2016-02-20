@@ -14,7 +14,7 @@ $(function () {
 // Initialize replicants we will use
     var playerPersistantDataReplicant = nodecg.Replicant("playerPersistantData");
     playerPersistantDataReplicant.on("change", function (oldValue, newValue) {
-        if (typeof newValue === 'undefined') {
+        if (typeof newValue === 'undefined' || newValue == '') {
             return;
         }
         // When we boot up the dashboard, update dropdowns with the saved playernames
