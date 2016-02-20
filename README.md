@@ -24,6 +24,7 @@ Make a new folder, in that folder, rightclick, choose "Open Git Bash.." and in t
    * mkdir nodecg && cd nodecg 
    * nodecg setup
    * npm install
+   * npm install bower -g
    * bower install
    * nodecg install charleon/nodecg-omnilays
    * cd bundles/nodecg-omnilays
